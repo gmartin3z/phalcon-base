@@ -1,0 +1,35 @@
+{
+    "name": "gmartin3z/phalcon-base",
+    "description": "Estructura de archivos base para inicializar un proyecto en phalcon 3",
+    "keywords": ["webapp", "php", "phalcon", "org"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gmartin3z"
+        }
+    ],
+    "require": {
+        "php": "7.*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-phalcon": "3.*",
+        "ext-tokenizer": "*",
+        "ext-xmlreader": "*",
+        "ext-zip": "*",
+        "erusev/parsedown": "^1.7",
+        "erusev/parsedown-extra": "^0.8.1",
+        "fightbulc/moment": "^1.32",
+        "gregwar/captcha": "^1.1",
+        "swiftmailer/swiftmailer": "^6.2",
+        "tgalopin/html-sanitizer": "^1.4"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

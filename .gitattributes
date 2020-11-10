@@ -1,0 +1,37 @@
+# DEFAULT LINE ENDING
+* text eol=lf
+
+# FILES TO NORMALIZE
+*.php  text eol=lf
+*.json text eol=lf
+*.sh   text eol=lf
+*.sql  text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
+*.md   text eol=lf
+
+# TEMPLATES
+*.volt  text
+*.phtml text
+
+# IMAGES
+*.png  binary
+*.jpg  binary
+*.ico  binary
+*.jpeg binary
+*.pdf  binary
+*.svg  text
+
+## FONTS
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+# COMPRESSED
+*.zip binary
+
+
+## protect composer.lock for undesirable behavior
+/composer.lock -merge
